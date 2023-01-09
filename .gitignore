@@ -1,0 +1,5 @@
+/.fleet
+/instance
+/migrations
+/venv
+/__pycache__

@@ -1,0 +1,25 @@
+<html>
+<body>
+<head><title>How to store data in database using flask</title></head>
+<style>div{width: 400px;border: 1px solid green; padding: 10px;margin-bottom: 5px;}</style>
+<div>
+  <table>
+     <thead>
+         <th>id</th>
+         <th>title</th>
+         <th>description</th>
+     </thead>
+     <tbody>
+       {% for task in tasks %}
+     <tr>
+         <td>{{task.id}}</td>
+         <td>{{task.title}}</td>
+         <td>{{task.description}}</td>
+     </tr>
+       {% endfor %}
+
+     </tbody>
+   </table>
+</div>
+</body>
+</html>
